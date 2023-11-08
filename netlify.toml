@@ -6,4 +6,7 @@
   base = "client" # If your client code is in a subdirectory
 
 [build.environment]
-  REACT_APP_API_URL = "/.netlify/functions/server" # This sets the backend URL to a Netlify Function
+  REACT_APP_API_URL = "/.netlify/functions/server"
+
+[functions]
+  directory = "server/functions"
